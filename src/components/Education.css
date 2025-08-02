@@ -1,0 +1,284 @@
+.education-section,
+.experience-section,
+.certifications-section {
+  margin: 4rem 0;
+}
+
+.education-section h3,
+.experience-section h3,
+.certifications-section h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #1a1a1a;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .education-section h3,
+[data-theme="dark"] .experience-section h3,
+[data-theme="dark"] .certifications-section h3 {
+  color: #ffffff;
+}
+
+.education-timeline,
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.education-item,
+.experience-item {
+  width: 100%;
+}
+
+.education-card,
+.experience-card {
+  padding: 2rem;
+}
+
+.education-header,
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.degree-info h4,
+.position-info h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .degree-info h4,
+[data-theme="dark"] .position-info h4 {
+  color: #ffffff;
+}
+
+.institution,
+.company {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #667eea;
+  font-weight: 500;
+}
+
+.education-meta,
+.experience-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: right;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .meta-item {
+  color: #b0b0b0;
+}
+
+.thesis {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #667eea;
+  transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .thesis {
+  background: #2a2a2a;
+  border-left-color: #8b9eff;
+}
+
+.thesis strong {
+  color: #1a1a1a;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .thesis strong {
+  color: #ffffff;
+}
+
+.highlights h5,
+.achievements h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .highlights h5,
+[data-theme="dark"] .achievements h5 {
+  color: #ffffff;
+}
+
+.highlights ul,
+.achievements ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+.highlights li,
+.achievements li {
+  padding: 0.5rem 0;
+  color: #555;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 1.5rem;
+  border-bottom: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .highlights li,
+[data-theme="dark"] .achievements li {
+  color: #b0b0b0;
+  border-bottom: 1px solid #333;
+}
+
+.highlights li:last-child,
+.achievements li:last-child {
+  border-bottom: none;
+}
+
+.highlights li::before,
+.achievements li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.experience-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  text-align: justify;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .experience-description {
+  color: #b0b0b0;
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.certification-card {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .certification-card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.certification-icon {
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.certification-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .certification-card h4 {
+  color: #ffffff;
+}
+
+.certification-issuer {
+  color: #667eea;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .certification-issuer {
+  color: #8b9eff;
+}
+
+.certification-year {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .certification-year {
+  color: #b0b0b0;
+}
+
+.certification-description {
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .certification-description {
+  color: #b0b0b0;
+}
+
+@media (max-width: 768px) {
+  .education-header,
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .education-meta,
+  .experience-meta {
+    text-align: left;
+  }
+  
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .education-section h3,
+  .experience-section h3,
+  .certifications-section h3 {
+    font-size: 1.6rem;
+  }
+  
+  .degree-info h4,
+  .position-info h4 {
+    font-size: 1.2rem;
+  }
+} 
